@@ -36,4 +36,8 @@ public class Client {
     public void setLastAccessDate(Date lastAccessDate) {
         this.lastAccessDate = lastAccessDate;
     }
+
+    public String getIp() {
+        return ip;
+    }
 }
